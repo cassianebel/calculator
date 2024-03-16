@@ -1,0 +1,94 @@
+html, body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  background-image: linear-gradient(to right top, #290537, #3a155d, #442888, #413fb8, #1259eb);
+  background-repeat: no-repeat;
+}
+#calculator {
+  width: 880px;
+  margin: 60px auto;
+  padding: 20px;
+  border-radius: 16px;
+  background: linear-gradient(225deg, #1f1f21, #1a1a1c);
+  box-shadow: -7px 7px 14px #111112;
+}
+#display {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  width: 89%;
+  height: 100px;
+  margin: 20px;
+  color: #000;
+  font-size: 5rem;
+  line-height: 150px;
+  text-align: right;
+  padding: 30px;
+  background: #878787;
+  box-shadow: inset -5px 5px 12px #656565,
+            inset 5px -5px 12px #a9a9a9;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  width: 148px;
+  height: 148px;
+  text-align: center;
+  line-height: 148px;
+  margin: 30px;
+  font-size: 4rem;
+  color: #c9c9c9;
+  border-radius: 74px;
+  border: none;
+  background: linear-gradient(225deg, #1f1f21, #1a1a1c);
+  box-shadow:  -7px 7px 14px #111112,
+             7px -7px 14px #29292c;
+}
+button:active {
+  background: linear-gradient(225deg, #1a1a1c, #1f1f21);
+  box-shadow:  -7px 7px 14px #111112,
+             7px -7px 14px #29292c;
+}
+#clear {
+  width: 680px;
+}
+#zero {
+  width: 420px;
+}
+#theme-toggler {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 88%;
+  margin: 60px auto;
+  box-shadow: -7px 7px 14px #111112;
+}
+
+.light-theme #calculator {
+  background: linear-gradient(225deg, #e5e5e5, #c1c1c1);  
+}
+.light-theme button {
+  color: #000;
+  background: linear-gradient(225deg, #e5e5e5, #c1c1c1);
+  box-shadow:  -7px 7px 14px #7e7e7e,
+               7px -7px 14px #ffffff;
+}
+.light-theme button:active {
+  background: linear-gradient(225deg, #c1c1c1, #e5e5e5);
+  box-shadow:  -7px 7px 14px #7e7e7e,
+             7px -7px 14px #ffffff;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 0,
+  'opsz' 24;
+  font-size: 4rem
+}

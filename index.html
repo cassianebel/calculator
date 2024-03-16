@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Cassia's Calculator</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Madimi+One&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="styles.css" />
+        <script src="scripts.js" defer></script>
+    </head>
+    <body class="dark-theme">
+      <button id="theme-toggler">
+        <span class="material-symbols-outlined">light_mode</span>
+        <span>Toggle Theme</span>
+        <span class="material-symbols-outlined">dark_mode</span>
+      </button>
+      <div id="calculator">
+          <input id="display" disabled></input>
+          <div class="flex">
+              <button id="clear">AC</button>
+              <button id="divide" class="btn">÷</button>
+          </div>
+          <div class="flex">
+              <button id="seven" class="btn">7</button>
+              <button id="eight" class="btn">8</button>
+              <button id="nine" class="btn">9</button>
+              <button id="multiply" class="btn">×</button>
+          </div>
+          <div class="flex">
+              <button id="four" class="btn">4</button>
+              <button id="five" class="btn">5</button>
+              <button id="six" class="btn">6</button>
+              <button id="subtract" class="btn">-</button>
+          </div>
+          <div class="flex">
+              <button id="one" class="btn">1</button>
+              <button id="two" class="btn">2</button>
+              <button id="three" class="btn">3</button>
+              <button id="add" class="btn">+</button>
+          </div>
+          <div class="flex">
+              <button id="zero" class="btn">0</button>
+              <button id="decimal"  class="btn">.</button>
+              <button id="equals">=</button>
+          </div>
+      </div>
+    </body>
+
+</html>
